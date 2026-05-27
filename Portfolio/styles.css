@@ -1,0 +1,265 @@
+body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Ppopins, Georgia, Times, 'Times New Roman', serif;
+}
+
+:root {
+     --navbar-background-color: #111;
+     --background-color: #212529;
+     --text-color: #fff;
+     --hover-color: #ffa500;
+     --style-color: #00ffffd5;
+}
+
+
+.portfolio-container {
+     background-color: var(--background-color);
+     color: var(--text-color);
+     height: auto;
+     width: 100%;
+     text-decoration: none !important;
+}
+
+/* Navbar Section */
+
+.header {
+     /* display: flex; */
+     align-items: center;
+     justify-content: space-between;
+     background-color: var(--navbar-background-color);
+     width: 100%;
+     position: relative;
+     top: 0;
+     z-index: 1000;
+     border-bottom: #212529;
+}
+
+.nav {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0.5rem 1rem;
+}
+
+.nav-logo {
+     /* width: 80%; */
+     position: relative;
+     left: 0;
+     font-size: 1.65rem;
+     margin-left: 2rem;
+}
+
+.nav-logo:hover {
+     cursor: pointer;
+     color: var(--hover-color);
+     font-size: 1.85rem;
+}
+
+.nav-sec {
+     /* width: 20%; */
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 1rem;
+     margin-right: 3rem;
+
+}
+
+.nav-sec a {
+     text-decoration: none;
+     color: var(--text-color);
+}
+
+.nav-sec a:hover {
+     cursor: pointer;
+     color: var(--hover-color);
+     border-bottom: 2px solid var(--hover-color);
+}
+
+
+/* Navbar Responsive */
+
+/* Home Section */
+
+.home-section {
+     border: 2px solid red;
+     padding: 5rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+
+.home-section .left-home-sec,
+.right-home-sec {
+     width: 50%;
+     border: 2px solid green;
+     padding-left: 5rem;
+}
+
+.left-home-sec {
+     line-height: 1.5;
+     margin: a auto;
+     margin-left: 8rem;
+
+}
+
+.left-home-sec .hello {
+     font-size: 1.25rem;
+}
+
+.left-home-sec .name {
+     font-size: 2.5rem;
+}
+
+.left-home-sec .name .mohit {
+     color: var(--hover-color);
+}
+
+
+.left-home-sec .name .hod {
+     color: var(--style-color);
+}
+
+.left-home-sec .info {
+     font-size: 1.25rem;
+}
+
+.text-animation {
+     font-size: 1.75rem;
+     font-weight: 600;
+     min-width: 280px;
+}
+
+.text-animation span {
+     position: relative;
+}
+
+.text-animation span::before {
+     content: "Web Developer";
+     /* color: #0fe; */
+     color: var(--style-color);
+     animation: words 20s infinite;
+}
+
+.text-animation span::after {
+     content: "";
+     /* background-color: #080808; */
+     background-color: var(--background-color);
+     position: absolute;
+     width: calc(100% + 8px);
+     height: 120%;
+     /* border-left: 3px solid #080808; */
+     border-left: 3px solid var(--background-color);
+     right: -8px;
+     animation:
+          cursor 0.6s infinite,
+          typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+     to {
+          border-left: 2px solid #0fe;
+     }
+}
+
+@keyframes words {
+
+     0%,
+     20% {
+          content: "Web Developer";
+     }
+
+     21%,
+     40% {
+          content: "Web Designer";
+     }
+
+     41%,
+     60% {
+          content: "UI/UX Designer";
+     }
+
+     61%,
+     80% {
+          content: "Web Manager";
+     }
+
+     81%,
+     100% {
+          content: "Freelancer";
+     }
+}
+
+@keyframes typing {
+
+     10%,
+     15%,
+     30%,
+     35%,
+     50%,
+     55%,
+     70%,
+     75%,
+     90%,
+     95% {
+          width: 0;
+     }
+
+     5%,
+     20%,
+     25%,
+     40%,
+     45%,
+     60%,
+     65%,
+     80%,
+     85% {
+          width: calc(100% + 8px);
+     }
+}
+
+.socials-icons {
+     text-decoration: none;
+     font-size: 1.2rem;
+     padding: 0.5rem;
+     border-radius: 50%;
+}
+
+.right-home-sec .img-box img {
+     height: 20rem;
+     width: 18rem;
+     /* margin-top: 2rem; */
+     /* border-radius: 30%; */
+     border-top-left-radius: 70%;
+     border-top-right-radius: 70%;
+}
+
+< !doctype html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport"
+content="width=device-width, initial-scale=1.0"
+/><title>Mohit Hodkhasiya</title>< !-- font-Awesome --><link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+/><link rel="stylesheet" href="styles.css" /></head><body>< !-- <h1>Jai Bajrang Bali...</h1>--><div class="portfolio-container" id="portfolio-container">< !-- Navbar Section --><div class="header" id="header"><nav class="nav" id="nav"><div class="nav-logo">Mohit Hodkhasiya</div><div class="nav-sec"><a href="#home"><span>Home</span></a><a href="#about"><span>About</span></a><a href="#education"><span>Education</span></a><a href="#skills"><span>Skills</span></a><a href="#projects"><span>Projects</span></a><a href="#experiences"><span>Experiences</span></a><a href="#contact"><span>Contact</span></a></div></nav></div>< !-- Home Section --><div class="home-section" id="home-section"><div class="left-home-sec"><div class="hello"><p>Hello It's Me</p>
+ </div><div class="name"><span class="mohit">Mohit</span><span class="hod">Hodkhasiya</span></div><div class="info"><p>and I am Passionate</p></div><div class="work"><h3 class="text-animation"><span></span></h3></div><div class="socials-icons"><a href="https://www.linkedin.com/in/mohit-kumar-396119343/" target="_blank"
+rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a><a href="https://github.com/MK-Coder1/MK_Coder" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-label="Github Profile"></i></i></a><a href="https://www.instagram.com/mk_coder1/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" aria-label="Instagram Profile"></i></a><a href="https://www.youtube.com/@Seekho_Code" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube" aria-label="Youtube Channel"></i></i></a><span><i class="fa-brands fa-square-linkedin"
+style="color: rgb(11, 255, 19)"
+></i></span><span><i class="fa-brands fa-github"
+style="color: rgb(11, 255, 19)"
+></i></span><span><i class="fa-brands fa-instagram"
+style="color: rgb(11, 255, 19)"
+></i></span><span><i class="fa-brands fa-twitter"
+style="color: rgb(11, 255, 19)"
+></i></span><span><i class="fa-brands fa-telegram"
+style="color: rgb(11, 255, 19)"
+></i></span></div><button class="resume-btn">Download Resume<i class="fa-solid fa-download"
+style="color: rgb(11, 255, 19)"
+></i></button></div><div class="right-home-sec"><div class="img-box"><img src="./images/mohit.jpg"
+alt="mohit-hodkhasiya-img"
+/></div></div></div><div class="about-section" id="about-section"></div><div class="skill-sections" id="skill-sections"></div><div class="education-section" id="education-section"></div><div class="experience-section" id="experience-section"></div><div class="certificates-section"
+id="certificates-section"
+></div><div class="projects-section" id="projects-section"></div><div class="contact-section" id="contact-section"></div><div class="footer-section" id="footer-section"></div></div></body></html>
