@@ -236,30 +236,3 @@ body {
      border-top-left-radius: 70%;
      border-top-right-radius: 70%;
 }
-
-< !doctype html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport"
-content="width=device-width, initial-scale=1.0"
-/><title>Mohit Hodkhasiya</title>< !-- font-Awesome --><link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-crossorigin="anonymous"
-referrerpolicy="no-referrer"
-/><link rel="stylesheet" href="styles.css" /></head><body>< !-- <h1>Jai Bajrang Bali...</h1>--><div class="portfolio-container" id="portfolio-container">< !-- Navbar Section --><div class="header" id="header"><nav class="nav" id="nav"><div class="nav-logo">Mohit Hodkhasiya</div><div class="nav-sec"><a href="#home"><span>Home</span></a><a href="#about"><span>About</span></a><a href="#education"><span>Education</span></a><a href="#skills"><span>Skills</span></a><a href="#projects"><span>Projects</span></a><a href="#experiences"><span>Experiences</span></a><a href="#contact"><span>Contact</span></a></div></nav></div>< !-- Home Section --><div class="home-section" id="home-section"><div class="left-home-sec"><div class="hello"><p>Hello It's Me</p>
- </div><div class="name"><span class="mohit">Mohit</span><span class="hod">Hodkhasiya</span></div><div class="info"><p>and I am Passionate</p></div><div class="work"><h3 class="text-animation"><span></span></h3></div><div class="socials-icons"><a href="https://www.linkedin.com/in/mohit-kumar-396119343/" target="_blank"
-rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a><a href="https://github.com/MK-Coder1/MK_Coder" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-label="Github Profile"></i></i></a><a href="https://www.instagram.com/mk_coder1/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" aria-label="Instagram Profile"></i></a><a href="https://www.youtube.com/@Seekho_Code" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube" aria-label="Youtube Channel"></i></i></a><span><i class="fa-brands fa-square-linkedin"
-style="color: rgb(11, 255, 19)"
-></i></span><span><i class="fa-brands fa-github"
-style="color: rgb(11, 255, 19)"
-></i></span><span><i class="fa-brands fa-instagram"
-style="color: rgb(11, 255, 19)"
-></i></span><span><i class="fa-brands fa-twitter"
-style="color: rgb(11, 255, 19)"
-></i></span><span><i class="fa-brands fa-telegram"
-style="color: rgb(11, 255, 19)"
-></i></span></div><button class="resume-btn">Download Resume<i class="fa-solid fa-download"
-style="color: rgb(11, 255, 19)"
-></i></button></div><div class="right-home-sec"><div class="img-box"><img src="./images/mohit.jpg"
-alt="mohit-hodkhasiya-img"
-/></div></div></div><div class="about-section" id="about-section"></div><div class="skill-sections" id="skill-sections"></div><div class="education-section" id="education-section"></div><div class="experience-section" id="experience-section"></div><div class="certificates-section"
-id="certificates-section"
-></div><div class="projects-section" id="projects-section"></div><div class="contact-section" id="contact-section"></div><div class="footer-section" id="footer-section"></div></div></body></html>
