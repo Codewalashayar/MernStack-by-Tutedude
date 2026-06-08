@@ -1,0 +1,47 @@
+body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     box-sizing: border-box;
+}
+
+.card-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     height: 25rem;
+     width: 15rem;
+     margin: 2rem auto;
+     padding: 5px;
+     background-color: rgba(255, 0, 0, 0.792);
+     border-radius: 1rem;
+     color: #fff;
+}
+
+.img-sec {
+     height: 12.5rem;
+     text-align: center;
+
+}
+
+.img-sec img {
+     height: 12rem;
+     width: 14rem;
+     border-radius: 1rem;
+}
+
+.details-sec {
+     height: 12rem;
+     border-radius: 1rem;
+     margin-top: 0.5rem;
+     padding-left: 1rem;
+}
+
+.card-heding {
+     font-size: 1.75rem;
+}
+
+.zomato {
+     font-size: 2.5rem;
+     font-weight: bold;
+}
